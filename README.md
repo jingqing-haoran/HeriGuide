@@ -12,7 +12,7 @@ HeriGuide 是面向来华外国游客的**公益 H5 智慧导览平台**，以�
 - 🖥️ **PC 官网**：<https://jingqing-haoran.github.io/HeriGuide/>
 - 📱 **移动端 H5**：<https://jingqing-haoran.github.io/HeriGuide/mobile.html>
 
-打开 GitHub 仓库即可通过上方链接直接体验完整前端 Demo，无需本地安装。若演示暂时不可用，也可以按“本地运行”一节自行启动。
+打开 GitHub 仓库即可通过上方链接直接体验完整前端 Demo，无需本地安装。
 
 ## 为什么做 HeriGuide
 
@@ -38,19 +38,7 @@ HeriGuide 不是把"红色文化"做成单向宣讲，而是让每一位游客�
 | H5 | Translation | 中英法西方向切换、术语带注释翻译、拍照 / 语音占位、一键求助 |
 | PC | Landing | 叙事式首页：使命、场馆、功能、文化转译、社区、荣誉 |
 
-## 视觉方向
 
-**Museum × Travel × Culture × Technology**
-
-参考 Apple / Airbnb / Google Maps / National Geographic 的产品气质，但不复制任何一家：
-
-- Warm White / Off White / Charcoal 基底，朱砂红仅作 CTA、Active、Marker 与徽章；
-- 博物馆式衬线标题 + 现代无衬线 UI，字体本地打包，离线可用；
-- 克制动效：Fade Up、Card Hover Lift、Button Scale、Bottom Sheet Spring、Marker Pulse；
-- 移动端重要按钮均放在拇指可达区，禁止横向溢出；
-- 所有页面覆盖 Loading / Empty / Error / Success 状态与无障碍基础。
-
-设计系统详见 [DESIGN.md](./DESIGN.md)，产品事实记录见 [PRODUCT.md](./PRODUCT.md)。
 
 ## 技术栈
 
