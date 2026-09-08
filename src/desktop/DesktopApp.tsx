@@ -6,6 +6,7 @@ import { PlacesSection } from './sections/PlacesSection'
 import { FeatureSections } from './sections/FeatureSections'
 import { CultureCommunitySection } from './sections/CultureCommunitySection'
 import { JourneySection } from './sections/JourneySection'
+import { GallerySection } from './sections/GallerySection'
 
 const NAV = [
   { href: '#places', label: 'Places' },
@@ -69,6 +70,7 @@ export function DesktopApp() {
         <HeroSection />
         <PlacesSection />
         <FeatureSections />
+        <GallerySection />
         <CultureCommunitySection />
         <JourneySection />
 

@@ -15,6 +15,7 @@ import {
 } from 'lucide-react'
 import { featuredPlaces, PLACES } from '../../shared/data/places'
 import { POSTS } from '../../shared/data/community'
+import { HERITAGE_SHOTS } from '../../shared/data/heritageGallery'
 import { t } from '../../shared/i18n'
 import { useApp } from '../AppContext'
 import {
@@ -235,6 +236,49 @@ export function HomeScreen() {
         <div className="grid gap-0.5">
           {featuredPlaces.slice(1).map((place) => (
             <PlaceRowCard key={place.slug} place={place} trailing={<ChevronRight className="my-auto shrink-0 text-ink-faint" size={18} />} />
+          ))}
+        </div>
+      </section>
+
+      {/* Heritage gallery ------------------------------------------------------ */}
+      <section className="m-section mt-10">
+        <SectionHead
+          title="Wuhan in red & stone"
+          note="红色图志 · 八张照片里的武汉革命记忆"
+        />
+        <div className="no-scrollbar -mx-[18px] flex snap-x gap-3 overflow-x-auto px-[18px] pb-2">
+          {HERITAGE_SHOTS.slice(0, 6).map((shot) => (
+            <article
+              key={shot.image}
+              className="w-[218px] shrink-0 snap-start overflow-hidden rounded-[16px] bg-paper-deep"
+            >
+              <div className="relative h-[262px]">
+                <img
+                  className="media-cover absolute inset-0"
+                  src={shot.image}
+                  alt={shot.title.en}
+                  loading="lazy"
+                />
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background:
+                      'linear-gradient(to top, rgba(16,11,8,.85), rgba(16,11,8,.08) 58%, rgba(16,11,8,0))',
+                  }}
+                />
+                <div className="absolute inset-x-0 bottom-0 z-10 p-3.5 text-white">
+                  <p className="font-display text-[1.05rem] font-medium leading-tight text-balance">
+                    {shot.title.en}
+                  </p>
+                  <p className="mt-1 text-[0.66rem] font-semibold tracking-[0.06em] text-[#efd5ae]">
+                    {shot.title.zh}
+                  </p>
+                </div>
+              </div>
+              <p className="line-clamp-2 px-3 py-2.5 text-[0.72rem] leading-snug text-ink-faint">
+                {shot.note.en}
+              </p>
+            </article>
           ))}
         </div>
       </section>

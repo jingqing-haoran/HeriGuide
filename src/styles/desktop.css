@@ -239,6 +239,46 @@ body {
   padding: 26px;
 }
 
+.d-photo-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r-md);
+  background: var(--paper-deep);
+  color: #fbf6ee;
+}
+
+.d-photo-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.3s var(--ease-out);
+}
+
+.d-photo-card:hover img {
+  transform: scale(1.05);
+}
+
+.d-photo-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(14, 10, 7, 0.78) 0%,
+    rgba(14, 10, 7, 0.05) 56%,
+    rgba(14, 10, 7, 0) 80%
+  );
+}
+
+.d-photo-card__body {
+  position: absolute;
+  inset: auto 0 0 0;
+  z-index: 2;
+  padding: 20px;
+}
+
 .d-section-head {
   display: flex;
   flex-wrap: wrap;
