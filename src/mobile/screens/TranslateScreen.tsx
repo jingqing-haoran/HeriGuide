@@ -249,6 +249,50 @@ export function TranslateScreen() {
           )}
         </div>
 
+        {/* Phrase image cards -------------------------------------------------- */}
+        <div className="mt-4">
+          <p className="mb-2 text-[0.68rem] font-bold uppercase tracking-[0.16em] text-ink-faint">
+            Try a heritage phrase
+          </p>
+          <div className="grid grid-cols-2 gap-2.5">
+            {[
+              {
+                image: '/images/places/八七会议会址大门.jpg',
+                text: '八七会议会址在哪里？',
+                hint: 'Where is the August 7th Meeting site?',
+              },
+              {
+                image: '/images/places/辛亥首义厅 20240415.jpg',
+                text: '辛亥革命博物院怎么走？',
+                hint: 'How do I reach the Xinhai Revolution Museum?',
+              },
+            ].map((card) => (
+              <button
+                key={card.text}
+                className="tap overflow-hidden rounded-[14px] border border-line bg-paper text-left"
+                onClick={() => {
+                  setInput(card.text)
+                  setStatus('idle')
+                  setOutput('')
+                }}
+              >
+                <span className="relative block h-[88px] overflow-hidden bg-paper-deep">
+                  <img className="media-cover" src={card.image} alt="" loading="lazy" />
+                  <span className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent" />
+                </span>
+                <span className="block px-3 py-2.5">
+                  <span className="block text-[0.72rem] font-semibold leading-snug text-ink">
+                    {card.text}
+                  </span>
+                  <span className="mt-0.5 block text-[0.62rem] leading-snug text-ink-faint">
+                    {card.hint}
+                  </span>
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Help CTA */}
         <button className="mt-4 flex w-full items-center gap-3 rounded-[16px] bg-night px-4 py-4 text-left text-paper-warm" onClick={openHelp}>
           <span className="grid size-11 place-items-center rounded-full border border-white/20 bg-white/10">

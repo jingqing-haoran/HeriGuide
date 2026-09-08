@@ -78,6 +78,14 @@ export function DesktopApp() {
         <section className="d-section" id="mobile">
           <div className="d-container">
             <div className="relative overflow-hidden rounded-[22px] bg-night px-8 py-14 text-center text-paper-warm md:px-16 md:py-20">
+              <img
+                className="absolute inset-0 h-full w-full object-cover opacity-30"
+                src="/images/places/向警予雕像.jpg"
+                alt=""
+                aria-hidden
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-[#120e0a]/45" />
               <div
                 className="pointer-events-none absolute inset-0 opacity-35"
                 style={{

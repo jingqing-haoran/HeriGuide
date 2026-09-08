@@ -34,18 +34,21 @@ export function CultureCommunitySection() {
               {
                 term: '八七会议',
                 gloss: 'August 7th Meeting',
+                image: '/images/places/八七会议会址大门.jpg',
                 zh: '不是“八月七日的会议”这么简单',
                 en: 'A date hides an emergency: a secret meeting that redirected a revolution.',
               },
               {
                 term: '辛亥',
                 gloss: 'Xinhai',
+                image: '/images/places/辛亥革命博物馆2019.jpg',
                 zh: '一字背后是一整年的中国',
                 en: 'A year name in the sexagenary calendar — 1911, the year an empire ended.',
               },
               {
                 term: '红巷',
                 gloss: 'The Red Lane',
+                image: '/images/places/武汉革命博物馆_5611.jpg',
                 zh: '红色不是涂装，是历史的命名',
                 en: 'Not painted red — named for the 1927 revolution it once concentrated.',
               },
@@ -57,6 +60,14 @@ export function CultureCommunitySection() {
               >
                 <span className="font-display text-[2rem] font-medium text-white">{card.term}</span>
                 <span className="mt-1 block text-[0.8rem] font-semibold text-[#efd5ae]">{card.gloss}</span>
+                <div className="mt-4 h-32 overflow-hidden rounded-[10px] border border-white/10 bg-white/10">
+                  <img
+                    src={card.image}
+                    alt={card.gloss}
+                    loading="lazy"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
                 <div className="mt-5 h-px bg-white/10" />
                 <p className="mt-4 text-[0.88rem] font-medium text-white/78">{card.zh}</p>
                 <p className="mt-2 text-[0.8rem] leading-relaxed text-white/55">{card.en}</p>

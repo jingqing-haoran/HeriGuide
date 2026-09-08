@@ -79,6 +79,20 @@ export function MissionSection() {
                 leaves able to tell the story themselves.
               </p>
             </div>
+            <div className="mt-10 grid max-w-[620px] grid-cols-2 gap-3">
+              <img
+                className="h-[150px] w-full rounded-[12px] border border-line object-cover"
+                src="/images/places/辛亥革命博物馆2019.jpg"
+                alt="Xinhai Revolution Museum"
+                loading="lazy"
+              />
+              <img
+                className="h-[150px] w-full rounded-[12px] border border-line object-cover"
+                src="/images/places/起义门北面2023.4.jpg"
+                alt="Qiyi Gate in Wuchang"
+                loading="lazy"
+              />
+            </div>
           </div>
           <div className="lg:col-span-6">
             <div className="grid gap-3 sm:grid-cols-2">

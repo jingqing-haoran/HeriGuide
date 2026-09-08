@@ -28,6 +28,13 @@ export function ProfileScreen() {
     <div className="pb-8">
       {/* Identity ----------------------------------------------------------- */}
       <section className="relative overflow-hidden rounded-b-[24px] bg-night px-5 pb-7 pt-5 text-paper-warm">
+        <img
+          className="absolute inset-0 h-full w-full object-cover opacity-40"
+          src="/images/places/武汉革命博物馆_5611.jpg"
+          alt=""
+          aria-hidden
+        />
+        <div className="absolute inset-0 bg-[#120e0a]/55" />
         <div
           className="pointer-events-none absolute inset-0 opacity-30"
           style={{

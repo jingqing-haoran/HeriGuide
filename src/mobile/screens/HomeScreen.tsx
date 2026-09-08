@@ -103,16 +103,28 @@ export function HomeScreen() {
 
       {/* Global purpose band ------------------------------------------------ */}
       <section className="m-section -mt-2">
-        <div className="rounded-[16px] border border-line bg-paper px-4 py-4">
-          <div className="flex items-start gap-3">
-            <span className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-[10px] bg-clay text-white">
-              <Sparkles size={16} strokeWidth={1.9} />
+        <div className="relative overflow-hidden rounded-[18px]">
+          <img
+            className="absolute inset-0 h-full w-full object-cover"
+            src="/images/places/辛亥革命武昌起义纪念馆正门.JPG"
+            alt="Wuchang Uprising Memorial Hall"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(115deg, rgba(25,20,15,.94) 0%, rgba(25,20,15,.72) 62%, rgba(25,20,15,.38) 100%)',
+            }}
+          />
+          <div className="relative flex items-start gap-3 px-4 py-5 text-paper-warm">
+            <span className="mt-0.5 grid size-10 shrink-0 place-items-center rounded-[11px] bg-clay text-white">
+              <Sparkles size={17} strokeWidth={1.9} />
             </span>
-            <div>
-              <p className="text-[0.9rem] font-bold leading-snug text-ink">
+            <div className="min-w-0">
+              <p className="text-[0.95rem] font-bold leading-snug text-white">
                 Red heritage, carried onward by every visitor.
               </p>
-              <p className="mt-1 text-[0.78rem] leading-relaxed text-ink-faint">
+              <p className="mt-1 text-[0.78rem] leading-relaxed text-white/72">
                 HeriGuide is a non-profit project helping China’s revolutionary story travel — one
                 translated object, room and conversation at a time.
               </p>

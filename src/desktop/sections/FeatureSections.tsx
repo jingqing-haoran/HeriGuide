@@ -207,6 +207,13 @@ function DemoMap() {
 function AudioDemo() {
   return (
     <div className="relative overflow-hidden rounded-[18px] bg-night p-6 text-paper-warm shadow-[var(--shadow-2)]">
+      <img
+        className="absolute inset-0 h-full w-full object-cover opacity-35"
+        src="/images/places/辛亥首义厅 20240415.jpg"
+        alt=""
+        aria-hidden
+        loading="lazy"
+      />
       <div
         className="pointer-events-none absolute inset-0 opacity-30"
         style={{
