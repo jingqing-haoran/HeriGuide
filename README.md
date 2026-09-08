@@ -43,8 +43,11 @@ HeriGuide 不是把"红色文化"做成单向宣讲，而是让每一位游客�
 ## 技术栈
 
 ```text
-React 19 · TypeScript · Vite 8 · Tailwind CSS 4 · Lucide Icons
+前端：React 19 · TypeScript · Vite 8 · Tailwind CSS 4 · Lucide Icons
+后端：Python · FastAPI · SQLAlchemy 2 · Pydantic v2（默认 SQLite，可切 MySQL）
 ```
+
+完整后端接口文档与数据模型见 [backend/README.md](./backend/README.md)。
 
 代码结构：
 
@@ -54,9 +57,14 @@ src/
 ├── mobile/          # 移动端 App Shell、页面与组件
 ├── desktop/         # PC 官网导航与章节式页面
 └── styles/          # 设计令牌 + shared / mobile / desktop CSS
+
+backend/
+├── app/             # FastAPI 应用：配置、模型、Schema、种子数据与 API 路由
+├── tests/           # 接口测试
+└── requirements.txt
 ```
 
-数据层使用**类型化本地数据 + Mock Service**，保留未来无缝替换 FastAPI / MySQL 后端的接口结构；地图与翻译 API 一律通过环境变量注入，不写死密钥。
+前端数据层使用类型化本地数据 + Mock Service，因此在线 Demo 可脱离后端运行；仓库内已配套完整的 FastAPI 后端，联调时把前端请求指向 `http://127.0.0.1:8000/api` 即可无缝替换。地图与翻译 API 一律通过环境变量注入，不写死密钥。
 
 ## 本地运行
 
@@ -78,6 +86,16 @@ pnpm dev
 pnpm build
 pnpm preview
 ```
+
+启动后端 API（默认 SQLite，自动建表并写入演示数据）：
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+```
+
+接口调试：<http://127.0.0.1:8000/docs>
 
 ## 真实图片版权与数据边界
 

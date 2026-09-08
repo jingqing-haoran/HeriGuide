@@ -4,3 +4,9 @@ dist/
 .impeccable/
 *.log
 .DS_Store
+.venv/
+backend/heriguide.db
+backend/.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
