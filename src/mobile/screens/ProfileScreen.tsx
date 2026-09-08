@@ -30,7 +30,7 @@ export function ProfileScreen() {
       <section className="relative overflow-hidden rounded-b-[24px] bg-night px-5 pb-7 pt-5 text-paper-warm">
         <img
           className="absolute inset-0 h-full w-full object-cover opacity-40"
-          src="/images/places/武汉革命博物馆_5611.jpg"
+          src="images/places/武汉革命博物馆_5611.jpg"
           alt=""
           aria-hidden
         />

@@ -55,7 +55,7 @@ export function CommunityScreen() {
       likes: 0,
       comments: 0,
       kind: 'story',
-      image: '/images/places/20231125_Statue_of_Sun_Yat-sen_in_front_of_the_1911_Revolution_Museum.jpg',
+      image: 'images/places/20231125_Statue_of_Sun_Yat-sen_in_front_of_the_1911_Revolution_Museum.jpg',
     }
     setPosts((list) => [post, ...list])
     setComposeOpen(false)

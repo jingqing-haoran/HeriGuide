@@ -80,7 +80,7 @@ export function DesktopApp() {
             <div className="relative overflow-hidden rounded-[22px] bg-night px-8 py-14 text-center text-paper-warm md:px-16 md:py-20">
               <img
                 className="absolute inset-0 h-full w-full object-cover opacity-30"
-                src="/images/places/向警予雕像.jpg"
+                src="images/places/向警予雕像.jpg"
                 alt=""
                 aria-hidden
                 loading="lazy"

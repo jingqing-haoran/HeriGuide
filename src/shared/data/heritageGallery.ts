@@ -6,7 +6,7 @@ export interface HeritageShot {
 
 export const HERITAGE_SHOTS: HeritageShot[] = [
   {
-    image: '/images/places/起义门北面2023.4.jpg',
+    image: 'images/places/起义门北面2023.4.jpg',
     title: { zh: '起义门 · 中和门', en: 'Qiyi Gate — the Gate of Uprising' },
     note: {
       zh: '辛亥首义第一枪从这里打响，武昌旧城的红色城门。',
@@ -14,7 +14,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/二七烈士纪念碑以及二七纪念馆.jpg',
+    image: 'images/places/二七烈士纪念碑以及二七纪念馆.jpg',
     title: { zh: '二七纪念馆与纪念碑', en: 'February 7th Memorial & Monument' },
     note: {
       zh: '纪念 1923 年京汉铁路大罢工中牺牲的工人。',
@@ -22,7 +22,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/向警予雕像.jpg',
+    image: 'images/places/向警予雕像.jpg',
     title: { zh: '向警予雕像', en: 'Xiang Jingyu Memorial' },
     note: {
       zh: '中国共产党早期妇女运动领导人之一。',
@@ -30,7 +30,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/辛亥首义厅 20240415.jpg',
+    image: 'images/places/辛亥首义厅 20240415.jpg',
     title: { zh: '辛亥首义厅', en: 'The 1911 Hall' },
     note: {
       zh: '武昌起义军政府的纪念展厅与历史现场。',
@@ -38,7 +38,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/辛亥首义工程营旧址 9071.jpg',
+    image: 'images/places/辛亥首义工程营旧址 9071.jpg',
     title: { zh: '辛亥首义工程营旧址', en: 'Site of the Engineering Camp' },
     note: {
       zh: '起义官兵驻扎过的老营房与红色街巷。',
@@ -46,7 +46,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/辛亥革命武昌起义纪念馆正门.JPG',
+    image: 'images/places/辛亥革命武昌起义纪念馆正门.JPG',
     title: { zh: '辛亥革命武昌起义纪念馆', en: 'Wuchang Uprising Memorial Hall' },
     note: {
       zh: '记录武昌起义与辛亥革命历程的纪念场馆。',
@@ -54,7 +54,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/武汉二七纪念馆 - panoramio.jpg',
+    image: 'images/places/武汉二七纪念馆 - panoramio.jpg',
     title: { zh: '武汉二七纪念馆', en: 'Wuhan February 7th Memorial' },
     note: {
       zh: '京汉铁路工人运动的重要纪念地。',
@@ -62,7 +62,7 @@ export const HERITAGE_SHOTS: HeritageShot[] = [
     },
   },
   {
-    image: '/images/places/起义门南面2023.4.jpg',
+    image: 'images/places/起义门南面2023.4.jpg',
     title: { zh: '起义门 · 城南视角', en: 'Qiyi Gate — Southern View' },
     note: {
       zh: '从南侧远望起义门与武昌老城轮廓。',

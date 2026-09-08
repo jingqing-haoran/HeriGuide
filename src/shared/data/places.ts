@@ -22,7 +22,7 @@ export const PLACES: Place[] = [
     },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'fr', 'es'],
-    image: '/images/places/辛亥革命博物馆2019.jpg',
+    image: 'images/places/辛亥革命博物馆2019.jpg',
     summary: {
       zh: '记录 1911 年改变中国的武昌起义，辛亥革命从这里开始。',
       en: 'The 1911 Revolution began here — the uprising that ended imperial rule.',
@@ -62,7 +62,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '09:00–17:00', en: '09:00–17:00', fr: '09:00–17:00', es: '09:00–17:00' },
     closedDay: 'Monday',
     languages: ['en', 'fr', 'es', 'zh'],
-    image: '/images/places/20240621_Site_of_the_Wuchang_Uprising_Military_Government_01.jpg',
+    image: 'images/places/20240621_Site_of_the_Wuchang_Uprising_Military_Government_01.jpg',
     summary: {
       zh: '红砖红楼——辛亥革命后第一个革命政权的诞生地。',
       en: 'The red-brick building where the first revolutionary government of the 1911 era was born.',
@@ -98,7 +98,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '08:30–17:00', en: '08:30–17:00', fr: '08:30–17:00', es: '08:30–17:00' },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'fr', 'es'],
-    image: '/images/places/武汉革命博物馆_5611.jpg',
+    image: 'images/places/武汉革命博物馆_5611.jpg',
     summary: {
       zh: '都府堤红巷串联起农讲所、五大会址与毛泽东旧居，是 1927 年革命史的核心现场。',
       en: 'A red lane of 1927 history — peasant institute, Party congress site and Mao’s residence in one walk.',
@@ -134,7 +134,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '08:30–17:00', en: '08:30–17:00', fr: '08:30–17:00', es: '08:30–17:00' },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'fr', 'es'],
-    image: '/images/places/八七会议会址大门.jpg',
+    image: 'images/places/八七会议会址大门.jpg',
     summary: {
       zh: '1927 年一次秘密召开的紧急会议，重新决定了中国革命的走向。',
       en: 'A secret emergency meeting in 1927 that redirected the Chinese revolution.',
@@ -170,7 +170,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '09:00–17:00', en: '09:00–17:00', fr: '09:00–17:00', es: '09:00–17:00' },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'fr'],
-    image: '/images/places/中共五大会址.jpg',
+    image: 'images/places/中共五大会址.jpg',
     summary: {
       zh: '1927 年 4 月至 5 月，中国共产党第五次全国代表大会在此召开。',
       en: 'In April–May 1927 the Fifth National Congress of the CPC was held on this site.',
@@ -204,7 +204,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '09:00–17:00', en: '09:00–17:00', fr: '09:00–17:00', es: '09:00–17:00' },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'es'],
-    image: '/images/places/中央农民运动讲习所旧址纪念馆.jpg',
+    image: 'images/places/中央农民运动讲习所旧址纪念馆.jpg',
     summary: {
       zh: '1927 年培养农民运动骨干的“大课堂”，青年毛泽东曾主持工作。',
       en: 'The 1927 school where revolutionary leaders were trained — Mao Zedong among its teachers.',
@@ -238,7 +238,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '09:00–17:00', en: '09:00–17:00', fr: '09:00–17:00', es: '09:00–17:00' },
     closedDay: 'Monday',
     languages: ['zh', 'en', 'fr'],
-    image: '/images/places/毛泽东旧居_20240218.jpg',
+    image: 'images/places/毛泽东旧居_20240218.jpg',
     summary: {
       zh: '1927 年上半年，毛泽东在武汉写作《湖南农民运动考察报告》时的住处。',
       en: 'Where Mao Zedong lived while writing his famous 1927 investigation of China’s countryside.',
@@ -272,7 +272,7 @@ export const PLACES: Place[] = [
     openHours: { zh: '08:30–16:30', en: '08:30–16:30', fr: '08:30–16:30', es: '08:30–16:30' },
     closedDay: 'Monday',
     languages: ['zh', 'en'],
-    image: '/images/places/京汉铁路总工会旧址.jpg',
+    image: 'images/places/京汉铁路总工会旧址.jpg',
     summary: {
       zh: '1923 年“二七”大罢工中铁路工人运动的指挥中心。',
       en: 'The command post of the 1923 railway workers’ strike that shook the nation.',

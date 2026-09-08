@@ -257,12 +257,12 @@ export function TranslateScreen() {
           <div className="grid grid-cols-2 gap-2.5">
             {[
               {
-                image: '/images/places/八七会议会址大门.jpg',
+                image: 'images/places/八七会议会址大门.jpg',
                 text: '八七会议会址在哪里？',
                 hint: 'Where is the August 7th Meeting site?',
               },
               {
-                image: '/images/places/辛亥首义厅 20240415.jpg',
+                image: 'images/places/辛亥首义厅 20240415.jpg',
                 text: '辛亥革命博物院怎么走？',
                 hint: 'How do I reach the Xinhai Revolution Museum?',
               },

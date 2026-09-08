@@ -39,7 +39,7 @@ export function HomeScreen() {
       <section className="relative h-[628px] overflow-hidden">
         <img
           className="absolute inset-0 h-full w-full object-cover object-center"
-          src="/images/places/20231125_Statue_of_Sun_Yat-sen_in_front_of_the_1911_Revolution_Museum.jpg"
+          src="images/places/20231125_Statue_of_Sun_Yat-sen_in_front_of_the_1911_Revolution_Museum.jpg"
           alt="Sun Yat-sen statue before the Xinhai Revolution Museum in Wuhan"
         />
         <div
@@ -106,7 +106,7 @@ export function HomeScreen() {
         <div className="relative overflow-hidden rounded-[18px]">
           <img
             className="absolute inset-0 h-full w-full object-cover"
-            src="/images/places/辛亥革命武昌起义纪念馆正门.JPG"
+            src="images/places/辛亥革命武昌起义纪念馆正门.JPG"
             alt="Wuchang Uprising Memorial Hall"
           />
           <div

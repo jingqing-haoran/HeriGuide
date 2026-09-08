@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="d-hero">
       <img
         className="absolute inset-0 h-full w-full object-cover"
-        src="/images/places/辛亥革命博物馆2019.jpg"
+        src="images/places/辛亥革命博物馆2019.jpg"
         alt="Xinhai Revolution Museum in Wuhan"
       />
       <div className="d-container relative z-10 pb-[max(3.2rem,env(safe-area-inset-bottom))] pt-40">
@@ -82,13 +82,13 @@ export function MissionSection() {
             <div className="mt-10 grid max-w-[620px] grid-cols-2 gap-3">
               <img
                 className="h-[150px] w-full rounded-[12px] border border-line object-cover"
-                src="/images/places/辛亥革命博物馆2019.jpg"
+                src="images/places/辛亥革命博物馆2019.jpg"
                 alt="Xinhai Revolution Museum"
                 loading="lazy"
               />
               <img
                 className="h-[150px] w-full rounded-[12px] border border-line object-cover"
-                src="/images/places/起义门北面2023.4.jpg"
+                src="images/places/起义门北面2023.4.jpg"
                 alt="Qiyi Gate in Wuchang"
                 loading="lazy"
               />

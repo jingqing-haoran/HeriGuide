@@ -135,6 +135,11 @@ async function main() {
             rootChildren: document.querySelector('#root,#mobile-root')?.children.length ?? 0,
             fonts: Object.fromEntries(fonts.map((f) => [f, document.fonts.check('16px "' + f + '"')])),
             hasBottomNav: !!document.querySelector('.tabbar'),
+            brokenImages: [...document.images]
+              .filter((img) => img.complete && img.naturalWidth === 0)
+              .slice(0, 12)
+              .map((img) => img.getAttribute('src')),
+            totalImages: document.images.length,
             containers: [...document.querySelectorAll('.no-scrollbar')].map((el) => {
               const r = el.getBoundingClientRect()
               const cs = getComputedStyle(el)

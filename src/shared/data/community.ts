@@ -13,7 +13,7 @@ export const POSTS: CommunityPost[] = [
     language: 'en',
     likes: 128,
     comments: 24,
-    image: '/images/places/中共五大会址.jpg',
+    image: 'images/places/中共五大会址.jpg',
     kind: 'story',
   },
   {
@@ -28,7 +28,7 @@ export const POSTS: CommunityPost[] = [
     language: 'en',
     likes: 47,
     comments: 31,
-    image: '/images/places/辛亥革命博物馆2019.jpg',
+    image: 'images/places/辛亥革命博物馆2019.jpg',
     kind: 'question',
   },
   {
@@ -43,7 +43,7 @@ export const POSTS: CommunityPost[] = [
     language: 'en',
     likes: 93,
     comments: 12,
-    image: '/images/places/八七会议会址大门.jpg',
+    image: 'images/places/八七会议会址大门.jpg',
     kind: 'discover',
   },
   {
@@ -58,7 +58,7 @@ export const POSTS: CommunityPost[] = [
     language: 'en',
     likes: 61,
     comments: 19,
-    image: '/images/places/武汉革命博物馆_5611.jpg',
+    image: 'images/places/武汉革命博物馆_5611.jpg',
     kind: 'question',
   },
   {
@@ -73,7 +73,7 @@ export const POSTS: CommunityPost[] = [
     language: 'en',
     likes: 86,
     comments: 15,
-    image: '/images/places/毛泽东旧居_20240218.jpg',
+    image: 'images/places/毛泽东旧居_20240218.jpg',
     kind: 'story',
   },
 ]
