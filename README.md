@@ -7,6 +7,13 @@ HeriGuide 是面向来华外国游客的**公益 H5 智慧导览平台**，以�
 - 📱 **移动端 H5**（`mobile.html`）：主战场，扫码即用、单手操作、五 Tab 底部导航；
 - 🖥️ **PC 官网**（`index.html`）：路演展示与公开介绍，以"红色文化国际传播"为叙事主线。
 
+## 在线演示
+
+- 🖥️ **PC 官网**：<https://jingqing-haoran.github.io/HeriGuide/>
+- 📱 **移动端 H5**：<https://jingqing-haoran.github.io/HeriGuide/mobile.html>
+
+打开 GitHub 仓库即可通过上方链接直接体验完整前端 Demo，无需本地安装。若演示暂时不可用，也可以按“本地运行”一节自行启动。
+
 ## 为什么做 HeriGuide
 
 外国游客走进红色场馆，往往"看得见文物，却读不懂故事"：
